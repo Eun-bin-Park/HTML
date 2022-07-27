@@ -1,0 +1,29 @@
+<!--题目：设计一个网页，这个网页将列出你的个人资料，所列内容可以自行发挥，并是网页在显示30秒后，导向你就读学校的官网-->
+<!--解题如下-->
+<!--doctype是一个声明，告诉浏览器这个文件是符合HTML5规范的-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="倚梦">                                  <!--author是标识文件作者信息的值，使用name属性时需要搭配content属性-->
+    <meta name="description" content="倚梦的实例代码1">                    <!--description是文件的描述，在此编写的内容会出现在搜索引擎的搜寻结果中-->
+    <meta name="revised" content="倚梦 2022/02/02">                      <!--revised是描述文件的最新版本信息-->
+    <meta http-equiv="refresh" content="30;https://www.uestc.edu.cn/">   <!--这段代码的作用是将HTML文件在经过5秒后自动导向content里指定的网站网页-->
+    <title>倚梦的个人信息</title>                                          <!--title是设置文件标题，标题会出现在浏览器标题、浏览器标记列、浏览器记录及收藏列表中-->
+</head>
+<body>
+姓名：倚梦
+<br>
+学院：电子科学与工程学院
+<br>
+专业：电子信息工程
+<br>
+学校：电子科技大学(University Of Electronic Science And Technology Of China)
+<br>
+该页面30秒后跳转到学校官网
+<hr>
+<h4>University of Electronic Science and Technology of China</h4>
+<h4>求实求真 大气大为</h4>
+<p><small>倚梦-2022-2-19</small></p>
+</body>
+</html>
